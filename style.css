@@ -1,3 +1,8 @@
-.main {
-    color: red;
+.container {
+    display: flex;
+    width: 600px;
+    height: 1000px;
+    background-color: red;
+    left: 0; right: 0;
+    margin: auto;
 }
