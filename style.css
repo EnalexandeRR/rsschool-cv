@@ -1,8 +1,19 @@
 .container {
     display: flex;
-    width: 600px;
-    height: 1000px;
-    background-color: red;
+    flex-direction: column;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
     left: 0; right: 0;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.56) 3px 3px 70px 5px;
+    padding: 30px;
+}
+.footer {
+    background-color: rgb(255, 255, 255); 
+    margin: 10px;
+}
+.rsschool_img_link {
+    position: relative;
+    width: 150px;
+    left: 20px;
 }
