@@ -6,14 +6,114 @@
     left: 0; right: 0;
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.56) 3px 3px 70px 5px;
-    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer {
-    background-color: rgb(255, 255, 255); 
-    margin: 10px;
+    background-color: rgb(116, 116, 116); 
+}
+
+header {
+   
 }
 .rsschool_img_link {
     position: relative;
     width: 150px;
     left: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.nav_item {
+    margin: 10px;
+    padding: 15px;
+}
+
+.header_link {
+    color :rgba(113, 113, 113);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.contacts,.skills,.languages {
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    width: 45%;
+    border-top: 2px solid grey;
+}
+.avatar {
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.name #name {
+    font-size: 50px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+.name #proff {
+    font-size: 25px;
+    padding-left: 20px;
+    margin-bottom: auto; 
+    color: rgb(116, 116, 116);
+}
+.contacts {
+    width: 45%;
+    border-top: 2px solid grey;
+
+}
+.contacts h2 {
+    margin-top: 5px;
+}
+
+.about {
+    
+    width: 45%;
+    margin-right: 30px;
+    margin-left: auto;
+    display: flex;
+    justify-content: start;
+    border-top: 2px solid grey;
+}
+.about h2 {
+    margin-top: 5px;
+}
+
+.skills h2 {
+    margin-top: 5px;
+}
+
+.languages h2 {
+    margin-top: 5px;
+}
+
+#education {
+    width: 45%;
+    margin-right: 30px;
+    margin-left: auto;
+    display: flex;
+    justify-content: start;
+    border-top: 2px solid grey;
+}
+
+#education h2 {
+    margin-top: 5px;
+}
+
+.in_progress {
+    color: rgb(188, 195, 48);
+    font-weight: bold;
 }

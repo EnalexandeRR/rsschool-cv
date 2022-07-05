@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,66 +8,94 @@
     <link rel="stylesheet" href="style.css">
     <title>Alexandr Yenussov | CV</title>
 </head>
+
 <body>
+    <p title="SomeText"></p>
     <section class="container">
         <header>
-            <nav>
-                <ul>
-                    <li>Contacts</li>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Education</li>
+            <nav class="navigation">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="" class="header_link">About</a></li>
+                    <li class="nav_item"><a href="" class="header_link">Contacts</a></li>
+                    <li class="nav_item"><a href="#skills" class="header_link">Skills</a></li>
+                    <li class="nav_item"><a href="#education" class="header_link">Education</a></li>
+                    <li class="nav_item"><a href="" class="header_link">Expirience</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <img src="images/avatar.png" alt="avatar" width="200px">
-            <h1>Alexandr Yenussov</h1>
-            <h4>Junior Front-End Developer</h4>
+            <section class="avatar">
+                <img src="images/avatar.png" alt="avatar" width="150px" id="avatar">
+                <div class="name">
+                    <h1 id="name">Alexandr Yenussov</h1>
+                    <h4 id="proff">Junior Front-End Developer</h4>
+                </div>
+
+            </section>
+
             <section class="contacts">
-                <h2>Contacts</h2>
-                <hr>
-                <ul>
-                    <li>Tel:</li>
-                    <li>Email:</li>
-                    <li>Discord</li>
-                    <li>Github</li>
-                </ul>
+                <div>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Tel:</li>
+                        <li>Email:</li>
+                        <li>Discord</li>
+                        <li>Github</li>
+                    </ul>
+                </div>
             </section>
             <section class="about">
-                <h2>About me</h2>
-                <p>Write here some information about myself</p>
+                <div>
+                    <h2>About me</h2>
+                    <p>I'm enthusiastic and motivated person that looking forward to change his
+                        career from engineering to a proffesional Front-End developer. 
+                    </p>
+                </div>
+               
+               
             </section>
             <section class="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Github</li>
-                    <li>VSCode</li>
-                </ul>
-            </section>
-            <section class="education">
-                <h2>Education</h2>
-                <ul>
-                    <li>RSSchool Front-End Stage 0 - in progress</li>
-                </ul>
-            </section>
-            <section class="languages">
-                <h2>Languages</h2>
-                <ul>
-                    <li>Russian - native</li>
-                    <li>English - A2</li>
-                </ul>
-            </section>
-            <section>
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Github</li>
+                        <li>VSCode</li>
+                    </ul>
+                </div>
                 
             </section>
-        </main>    
+            <section id="education">
+                <div>
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Udemy - The Complete 2022 Web Development Bootcamp - <span class="in_progress">in progress</span></progress></li>
+                        <li>RSSchool Front-End Stage 0 - <span class="in_progress">in progress</span></li>
+                    </ul>
+                </div>
+                
+            </section>
+            <section class="languages">
+                <div>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - A2</li>
+                    </ul> 
+                </div>
+                
+            </section>
+            <section>
+
+            </section>
+        </main>
         <footer class="footer">
-            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" class="rsschool_img_link"></a>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg"
+                    alt="RSSchool" class="rsschool_img_link"></a>
         </footer>
     </section>
 </body>
+
 </html>
