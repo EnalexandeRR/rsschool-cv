@@ -50,3 +50,10 @@ function nthFibo(n) {
 
 - [Build Responsive Real-World Websites with HTML and CSS ](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) by Jonas Schmedtmann (**Completed**)
 - [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) by Jonas Schmedtmann (**In progress**)
+
+---
+
+## Languages:
+
+- English - B1-B2 (according to the Epam Training Center test)
+- Russian - Native
