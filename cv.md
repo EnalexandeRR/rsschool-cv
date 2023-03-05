@@ -27,3 +27,17 @@ Then I wondered if there was a way to make it a web app. That's when I got intro
 - JavaScript Basics
 - Git, GitHub
 - VS Code
+
+## Code example:
+
+```
+function nthFibo(n) {
+  if (n <= 2) return n - 1;
+
+  const FibSequence = [0, 1];
+  for (let i = 2; i < n; i++) {
+    FibSequence.push(FibSequence[FibSequence.length - 1] + FibSequence[FibSequence.length - 2]);
+  }
+  return FibSequence[FibSequence.length - 1];
+}
+```
