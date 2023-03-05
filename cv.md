@@ -28,6 +28,8 @@ Then I wondered if there was a way to make it a web app. That's when I got intro
 - Git, GitHub
 - VS Code
 
+---
+
 ## Code example:
 
 ```
@@ -41,3 +43,10 @@ function nthFibo(n) {
   return FibSequence[FibSequence.length - 1];
 }
 ```
+
+---
+
+## Courses:
+
+- [Build Responsive Real-World Websites with HTML and CSS ](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) by Jonas Schmedtmann (**Completed**)
+- [The Complete JavaScript Course 2023: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) by Jonas Schmedtmann (**In progress**)
