@@ -6,6 +6,7 @@
 
 ## Contact information:
 
+**Location:** Almaty, Kazakhstan<br>
 **Phone:** +7(747)396-81-19<br>
 **E-mail:** a.yenussov@gmail.com<br>
 **Discord:** Alexandr Yenussov#6929<br>
